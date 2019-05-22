@@ -29,7 +29,7 @@ class CriptoCesar{
     for (int pos = 0; pos < _text.length; pos++){
       if (_letters.contains(_text[pos])){
         int pos_chipher = _letters.indexOf(_text[pos]) - _key;
-//        if (pos_chipher >= 26) pos_chipher =  pos_chipher - 26;
+        if (pos_chipher < 0) pos_chipher =  pos_chipher + 26;
         plain_text += _letters[pos_chipher];
       } else {
         plain_text += _text[pos];
