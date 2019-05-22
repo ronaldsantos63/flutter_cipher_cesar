@@ -1,6 +1,6 @@
 # flutter_cripto_cesar
 
-Aplicativo que criptotafa e descriptofra texto usando a cifra de César, uma amiga me desafio a criar essa App e ai está, rsr
+Aplicativo que criptotafa e descriptofra texto usando a cifra de César, uma amiga me desafiou a criar essa App e ai está, rsr
 
 ## Getting Started
 
