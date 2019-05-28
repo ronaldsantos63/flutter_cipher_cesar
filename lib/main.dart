@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:share/share.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 
 import 'cripto/cripto_cesar.dart';
 
@@ -10,7 +11,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Criptografia de César',
+      title: 'Cipher César',
+      debugShowCheckedModeBanner: false,
+      localizationsDelegates: [
+        GlobalMaterialLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate
+      ],
+      supportedLocales: [
+        Locale("pt"),
+      ],
       theme: ThemeData(
         // This is the theme of your application.
         //
